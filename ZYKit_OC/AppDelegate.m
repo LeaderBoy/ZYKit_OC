@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 
+// Root
+#import "AppDelegate+RootTabBarViewController.h"
+// UIUserNotificationCenter
+#import "AppDelegate+UserNotification.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +21,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self root_initial];
+    [self userNotification_initial];
+    
+    
     return YES;
 }
 
