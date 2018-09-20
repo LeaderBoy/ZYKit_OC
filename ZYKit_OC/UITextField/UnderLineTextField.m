@@ -20,7 +20,6 @@
 }
 
 -(void)drawRect:(CGRect)rect {
-    
     CGPoint startPoint = CGPointMake(CGRectGetMinX(rect), CGRectGetMaxY(rect));
     CGPoint endPoint = CGPointMake(CGRectGetMaxX(rect), CGRectGetMaxY(rect));
     UIBezierPath *path = [[UIBezierPath alloc]init];

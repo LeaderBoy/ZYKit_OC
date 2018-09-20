@@ -16,7 +16,7 @@
 //
 #import "ExpandButton.h"
 
-//
+
 #import "UIViewController+HideTabbar.h"
 
 @interface UIUIViewController ()<UITableViewDelegate,ExpandButtonDelegate>
@@ -33,6 +33,7 @@
     [super viewDidLoad];
     [self initial];
     [self createTableView];
+
 }
 
 -(void)initial {
@@ -50,6 +51,8 @@
     _iTableView.tableFooterView = [UIView new];
     [self.view addSubview:_iTableView];
 }
+
+
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     return [self buttonViewAtSection:section];

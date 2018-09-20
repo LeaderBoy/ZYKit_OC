@@ -46,7 +46,7 @@
 
 #pragma mark - UIView
 -(TableViewItem *)createUIViewItems {
-    return [[TableViewItem alloc]initWithSectionTitle:@"UIView" contents:@[@"UIView+Bounds"]];
+    return [[TableViewItem alloc]initWithSectionTitle:@"UIView" contents:@[@"UIView+Bounds",@"UIView+RoundCorner"]];
 }
 #pragma mark - UIImage
 -(TableViewItem *)createUIImageItems {

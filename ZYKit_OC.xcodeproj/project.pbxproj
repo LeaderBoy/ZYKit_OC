@@ -59,6 +59,7 @@
 		526EEA792068FA7600A00A5D /* UIImage+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = 526EEA782068FA7600A00A5D /* UIImage+Gif.m */; };
 		526EEA7B2069386600A00A5D /* unicode.json in Resources */ = {isa = PBXBuildFile; fileRef = 526EEA7A2069386600A00A5D /* unicode.json */; };
 		52D3B40E2063EE6200E7A4AE /* UINavigationBar+Translucent.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D3B40D2063EE6200E7A4AE /* UINavigationBar+Translucent.m */; };
+		52E7F76821534D8400D3067F /* UIView+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E7F76621534D8300D3067F /* UIView+RoundCorner.m */; };
 		52ECAF742068A308001041B7 /* UIViewController+HideTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ECAF732068A308001041B7 /* UIViewController+HideTabbar.m */; };
 		52ECAF792068BC80001041B7 /* IndicatorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ECAF782068BC80001041B7 /* IndicatorBuilder.m */; };
 		52ECAF7C2068C62A001041B7 /* ExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ECAF7B2068C62A001041B7 /* ExpandButton.m */; };
@@ -188,6 +189,8 @@
 		526EEA7A2069386600A00A5D /* unicode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = unicode.json; sourceTree = "<group>"; };
 		52D3B40C2063EE6200E7A4AE /* UINavigationBar+Translucent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Translucent.h"; sourceTree = "<group>"; };
 		52D3B40D2063EE6200E7A4AE /* UINavigationBar+Translucent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Translucent.m"; sourceTree = "<group>"; };
+		52E7F76621534D8300D3067F /* UIView+RoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorner.m"; sourceTree = "<group>"; };
+		52E7F76721534D8400D3067F /* UIView+RoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundCorner.h"; sourceTree = "<group>"; };
 		52ECAF722068A308001041B7 /* UIViewController+HideTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HideTabbar.h"; sourceTree = "<group>"; };
 		52ECAF732068A308001041B7 /* UIViewController+HideTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HideTabbar.m"; sourceTree = "<group>"; };
 		52ECAF772068BC80001041B7 /* IndicatorBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndicatorBuilder.h; sourceTree = "<group>"; };
@@ -257,6 +260,8 @@
 			children = (
 				5241A861206B8D300082390A /* UIView+Bounds.h */,
 				5241A862206B8D300082390A /* UIView+Bounds.m */,
+				52E7F76721534D8400D3067F /* UIView+RoundCorner.h */,
+				52E7F76621534D8300D3067F /* UIView+RoundCorner.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -933,6 +938,7 @@
 				52566CEE205FB7DE0041103C /* UIColor+Hex.m in Sources */,
 				52566D9E2061EFB00041103C /* DisplayViewController.m in Sources */,
 				52566C81205F94150041103C /* NSString+ZYStringToColor.m in Sources */,
+				52E7F76821534D8400D3067F /* UIView+RoundCorner.m in Sources */,
 				52566CB0205FA54D0041103C /* UIButton+Badge.m in Sources */,
 				5241A85E206B7D0A0082390A /* NSArray+Log.m in Sources */,
 				52ECAF742068A308001041B7 /* UIViewController+HideTabbar.m in Sources */,

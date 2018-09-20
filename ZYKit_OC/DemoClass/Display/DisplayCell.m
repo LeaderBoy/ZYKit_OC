@@ -13,6 +13,7 @@
 #import "UIScreen+Bounds.h"
 // UIView
 #import "UIView+Bounds.h"
+#import "UIView+RoundCorner.h"
 
 // UIImage
 #import "UIImage+Scale.h"
@@ -154,6 +155,11 @@
     if ([itemTitle isEqualToString:@"UIView+Bounds"]) {
         _displayLabel.text = [NSString stringWithFormat:@"label的X坐标为%2.f",_displayLabel.x];
         _displayLabel.hidden = NO;
+    }else if ([itemTitle isEqualToString:@"UIView+RoundCorner"]) {
+        _displayLabel.text = @"部分圆角";
+        _displayLabel.hidden = NO;
+        _displayImageView.hidden = NO;
+        [_displayImageView roundCorner:UIRectCornerTopRight | UIRectCornerTopLeft cornerRadii:CGSizeMake(10, 10)];
     }
 
 }
